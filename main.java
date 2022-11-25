@@ -3,6 +3,8 @@ import utils;
 
 public class void main(String[] arg)
 {
- String password = "1234"
-   System.out.println(password);
+ String username = "steve";
+String password = "blue";
+Connection conn = DriverManager.getConnection("jdbc:mysql://localhost/test?" +
+                  "user=" + uname + "&password=" + password); // Sensitive
 }
